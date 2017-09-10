@@ -23,32 +23,34 @@
     <nav class="navbar navbar-default">
         <div class="container-fluid">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Content</a></li>
-                <li><a href="#">Second</a></li>
+                <li ng-class="{active: vm.selectedTab == 0}"><a href="" ng-click="vm.selectedTab = 0">Content</a></li>
+                <li ng-class="{active: vm.selectedTab == 1}"><a href="" ng-click="vm.selectedTab = 1">Second</a></li>
             </ul>
         </div>
     </nav>
 
     <div class="container-fluid">
-        <div class="form-horizontal">
-            <div class="form-group">
-                <label class="control-label col-sm-2" for="select-date">Please select date:</label>
-                <div class="col-sm-10">
-                    <input type="date" id="select-date" name="date" ng-model="vm.selectedDate" ng-change="vm.load()">
+        <div class="page" ng-show="vm.selectedTab == 0">
+            <div class="form-horizontal" ng-show="vm.selectedTab == 0">
+                <div class="form-group">
+                    <label class="control-label col-sm-2" for="select-date">Please select date:</label>
+                    <div class="col-sm-10">
+                        <input type="date" id="select-date" name="date" ng-model="vm.selectedDate"
+                               ng-change="vm.load()">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-sm-2" for="select-sheet">Please select sheet:</label>
+                    <div class="col-sm-10">
+                        <select id="select-sheet"
+                                ng-model="vm.selectedSheet"
+                                ng-options="sheet_name as sheet_name for sheet_name in vm.sheetList"
+                                ng-change="vm.selectSheet(vm.selectedSheet)">
+                        </select>
+                    </div>
                 </div>
             </div>
-            <div class="form-group">
-                <label class="control-label col-sm-2" for="select-sheet">Please select sheet:</label>
-                <div class="col-sm-10">
-                    <select id="select-sheet"
-                            ng-model="vm.selectedSheet"
-                            ng-options="sheet_name as sheet_name for sheet_name in vm.sheetList"
-                            ng-change="vm.selectSheet(vm.selectedSheet)">
-                    </select>
-                </div>
-            </div>
-        </div>
-        <!--
+            <!--
         <div class="input-file row">
             <div></div>
             <form class="col-sm-6" ng-submit="vm.submit()">
@@ -58,24 +60,37 @@
             </form>
         </div>
         -->
-        <div class="body-wrapper" ng-repeat="(key, value) in vm.tableData">
-            <h3>{[{ key }]}</h3>
-            <table class="table">
-                <thead>
-                <tr>
-                    <th ng-repeat="subTitle in value[0] track by $index">
-                        <div>{[{ subTitle }]}</div>
-                    </th>
-                </tr>
-                </thead>
-                <tbody>
-                <tr ng-repeat="data in value.slice(1, value.length) track by $index">
-                    <td ng-repeat="item in data track by $index">
-                        <div>{[{ item }]}</div>
-                    </td>
-                </tr>
-                </tbody>
-            </table>
+            <div class="body-wrapper" ng-repeat="(key, value) in vm.tableData">
+                <h3>{[{ key }]}</h3>
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th ng-repeat="subTitle in value[0] track by $index">
+                            <div>{[{ subTitle }]}</div>
+                        </th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr ng-repeat="data in value.slice(1, value.length) track by $index">
+                        <td ng-repeat="item in data track by $index">
+                            <div>{[{ item }]}</div>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="page" ng-show="vm.selectedTab == 1">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h3>Run Script</h3>
+                    <button class="btn btn-primary" ng-click="vm.runScript()">Click to run</button>
+                </div>
+                <div class="col-sm-6">
+                    <h3>Script Result</h3>
+                    <textarea style="width:100%; min-height: 200px;" ng-model="vm.scriptResult"></textarea>
+                </div>
+            </div>
         </div>
     </div>
 </div>

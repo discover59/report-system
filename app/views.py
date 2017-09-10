@@ -13,6 +13,7 @@ from django.views.generic import TemplateView, View
 from openpyxl import load_workbook, utils as pyxl_utils
 
 from .models import ExcelFile
+from .utils import run_script
 
 
 class DashboardPage(TemplateView):
@@ -132,6 +133,14 @@ class ExcelView(View):
             return JsonResponse(dict(state=True, res=response))
         except Exception as e:
             return JsonResponse(dict(state=False))
+
+
+class ScriptView(View):
+    """
+    View for getting script result
+    """
+    def post(self, request):
+        return JsonResponse(dict(res=run_script()))
 
 
 def get_table_data(worksheet, col_range):

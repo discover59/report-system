@@ -9,11 +9,13 @@
         var vm = this;
         var intervalID;
 
+        vm.selectedTab = 0;
         vm.submitFile = undefined;
         vm.selectedDate = '';
         vm.submit = submit;
         vm.load = load;
         vm.selectSheet = selectSheet;
+        vm.runScript = runScript;
 
         init();
 
@@ -52,6 +54,16 @@
                     console.log(err);
                 })
             }, 3000);
+        }
+
+        function runScript() {
+            vm.scriptResult = '';
+            $http.post('/app/api/run_script/')
+                .then(function (res) {
+                    vm.scriptResult = res.data.res;
+                }, function (err) {
+                    toastr.error('Script failed to run!');
+                })
         }
 
         function submit() {
