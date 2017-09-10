@@ -1,0 +1,19 @@
+.input-file {
+    text-align: center;
+    max-height: 30px;
+}
+
+.input-file.right {
+    position: absolute;
+    right: 0;
+    padding: 10px;
+}
+
+.body-wrapper {
+    padding: 15px;
+}
+
+.table th,
+.table td {
+    padding: 5px;
+}

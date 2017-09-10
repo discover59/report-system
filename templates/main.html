@@ -1,0 +1,90 @@
+{% load staticfiles %}
+<!DOCTYPE HTML>
+
+<html ng-app="app">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="robots" content="noindex, nofollow">
+    <base href="/" />
+    <link rel="stylesheet" href="{% static '/js/packages/bootstrap/dist/css/bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static '/js/packages/angular-toastr/dist/angular-toastr.css' %}">
+    <link rel="stylesheet" href="{% static '/css/main.css' %}">
+    <title>vSphere Dashboard</title>
+</head>
+
+<body ng-controller="InitCtrl as vm">
+
+<div>
+    <h1 style="text-align: center">
+        vSphere Cluster information
+    </h1>
+
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Content</a></li>
+                <li><a href="#">Second</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="form-horizontal">
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="select-date">Please select date:</label>
+                <div class="col-sm-10">
+                    <input type="date" id="select-date" name="date" ng-model="vm.selectedDate" ng-change="vm.load()">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="select-sheet">Please select sheet:</label>
+                <div class="col-sm-10">
+                    <select id="select-sheet"
+                            ng-model="vm.selectedSheet"
+                            ng-options="sheet_name as sheet_name for sheet_name in vm.sheetList"
+                            ng-change="vm.selectSheet(vm.selectedSheet)">
+                    </select>
+                </div>
+            </div>
+        </div>
+        <!--
+        <div class="input-file row">
+            <div></div>
+            <form class="col-sm-6" ng-submit="vm.submit()">
+                {% csrf_token %}
+                <input class="col-sm-8 right" type="file" fileread="vm.submitFile">
+                <input type="submit" class="col-sm-4 btn btn-primary">
+            </form>
+        </div>
+        -->
+        <div class="body-wrapper" ng-repeat="(key, value) in vm.tableData">
+            <h3>{[{ key }]}</h3>
+            <table class="table">
+                <thead>
+                <tr>
+                    <th ng-repeat="subTitle in value[0] track by $index">
+                        <div>{[{ subTitle }]}</div>
+                    </th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr ng-repeat="data in value.slice(1, value.length) track by $index">
+                    <td ng-repeat="item in data track by $index">
+                        <div>{[{ item }]}</div>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<script src="{% static 'js/packages/angular/angular.js' %}"></script>
+<script src="{% static 'js/packages/angular-animate/angular-animate.min.js' %}"></script>
+<script src="{% static 'js/packages/angular-toastr/dist/angular-toastr.tpls.js' %}"></script>
+<script src="{% static 'js/app.js' %}"></script>
+<script src="{% static 'js/main.js' %}"></script>
+</body>
+
+</html>
