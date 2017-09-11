@@ -2,6 +2,7 @@
 from __future__ import unicode_literals
 
 import datetime
+import json
 import os.path
 
 from io import BytesIO
@@ -140,7 +141,8 @@ class ScriptView(View):
     View for getting script result
     """
     def post(self, request):
-        return JsonResponse(dict(res=run_script()))
+        script_index = json.loads(request.body).get('index')
+        return JsonResponse(dict(res=run_script(script_index)))
 
 
 def get_table_data(worksheet, col_range):

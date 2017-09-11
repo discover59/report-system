@@ -8,14 +8,19 @@
     function InitCtrl($http, toastr) {
         var vm = this;
         var intervalID;
+        var scriptResult = {};
 
+        vm.scriptList = [];
+        vm.scriptNumber = undefined;
+        vm.selectedResult = '';
         vm.selectedTab = 0;
         vm.submitFile = undefined;
         vm.selectedDate = '';
-        vm.submit = submit;
         vm.load = load;
-        vm.selectSheet = selectSheet;
         vm.runScript = runScript;
+        vm.selectSheet = selectSheet;
+        vm.submit = submit;
+        vm.switchResult = switchResult;
 
         init();
 
@@ -57,13 +62,23 @@
         }
 
         function runScript() {
-            vm.scriptResult = '';
-            $http.post('/app/api/run_script/')
-                .then(function (res) {
-                    vm.scriptResult = res.data.res;
-                }, function (err) {
-                    toastr.error('Script failed to run!');
-                })
+            if (!vm.scriptNumber) {
+                toastr.warning('Please input script number');
+                return;
+            }
+            scriptResult[String(vm.scriptNumber)] = '';
+
+            $http.post('/app/api/run_script/', {
+                index: vm.scriptNumber
+            }).then(function (res) {
+                if (vm.scriptList.indexOf(vm.scriptNumber) === -1)
+                    vm.scriptList.push(vm.scriptNumber);
+                vm.selectedScript = vm.scriptNumber;
+                scriptResult[String(vm.scriptNumber)] = res.data.res;
+                vm.selectedResult = scriptResult[String(vm.selectedScript)];
+            }, function (err) {
+                toastr.error('Script failed to run!');
+            });
         }
 
         function submit() {
@@ -83,6 +98,10 @@
         function selectSheet(sheet_name) {
             if (!sheet_name) return;
             vm.tableData = vm.rawData[sheet_name];
+        }
+
+        function switchResult(index) {
+            vm.selectedResult = scriptResult[String(index)];
         }
     }
 })();

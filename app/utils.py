@@ -9,17 +9,22 @@ class DisableCSRFOnDebug(object):
             setattr(request, '_dont_enforce_csrf_checks', True)
 
 
-def run_script():
+def run_script(index):
     """
     running custom script to show result on UI
     :return: must be String value
     """
-    file_input = get_file_content(os.path.dirname(__file__) + '/input.txt')
-    output = []
-    for line in file_input:
-        output.append(' '.join(line_manipulation(line)))
-    output = os.linesep.join(output)
-    return output
+    if index == 1:
+        file_input = get_file_content(os.path.dirname(__file__) + '/input.txt')
+        output = []
+        for line in file_input:
+            output.append(' '.join(line_manipulation(line)))
+        output = os.linesep.join(output)
+        return output
+    elif index == 2:
+        return 'Hello World'
+    else:
+        return 'No Script at all'
 
 
 def get_file_content(filepath):

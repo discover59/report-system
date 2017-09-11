@@ -50,16 +50,7 @@
                     </div>
                 </div>
             </div>
-            <!--
-        <div class="input-file row">
-            <div></div>
-            <form class="col-sm-6" ng-submit="vm.submit()">
-                {% csrf_token %}
-                <input class="col-sm-8 right" type="file" fileread="vm.submitFile">
-                <input type="submit" class="col-sm-4 btn btn-primary">
-            </form>
-        </div>
-        -->
+
             <div class="body-wrapper" ng-repeat="(key, value) in vm.tableData">
                 <h3>{[{ key }]}</h3>
                 <table class="table">
@@ -84,11 +75,15 @@
             <div class="row">
                 <div class="col-sm-6">
                     <h3>Run Script</h3>
+                    <input style="text-align: right" type="number" ng-model="vm.scriptNumber"/>
                     <button class="btn btn-primary" ng-click="vm.runScript()">Click to run</button>
                 </div>
                 <div class="col-sm-6">
                     <h3>Script Result</h3>
-                    <textarea style="width:100%; min-height: 200px;" ng-model="vm.scriptResult"></textarea>
+                    <select style="min-width: 50px; text-align: right" ng-model="vm.selectedScript"
+                            ng-options="item for item in vm.scriptList"
+                            ng-change="vm.switchResult(vm.selectedScript)"></select>
+                    <textarea style="width:100%; min-height: 200px;" ng-model="vm.selectedResult"></textarea>
                 </div>
             </div>
         </div>
