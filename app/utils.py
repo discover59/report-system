@@ -14,38 +14,7 @@ def run_script(index):
     running custom script to show result on UI
     :return: must be String value
     """
-    if index == 1:
-        file_input = get_file_content(os.path.dirname(__file__) + '/input.txt')
-        output = []
-        for line in file_input:
-            output.append(' '.join(line_manipulation(line)))
-        output = os.linesep.join(output)
-        return output
-    elif index == 2:
-        return 'Hello World'
-    else:
-        return 'No Script at all'
-
-
-def get_file_content(filepath):
-    line_data = []
-    with open(filepath) as f:
-        for line in f:
-            line_data.append(line)
-
-    return line_data
-
-
-def line_manipulation(content):
-    """
-    Remove 2nd and 3rd word from the content
-    :param content:
-    :return:
-    """
-    word_list = content.strip().split(' ')
     try:
-        word_list.pop(1)
-        word_list.pop(1)
+        return os.popen(os.path.dirname(__file__) + os.sep + 'scripts' + os.sep + str(index) + '.py').read()
     except Exception as e:
-        pass
-    return word_list
+        return 'No Script at all'
