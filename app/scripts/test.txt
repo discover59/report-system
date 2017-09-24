@@ -1,0 +1,747 @@
+========Array  10.2.36.1=======
+Hostname                                Array UID
+--------                                ----------
+VX01FR015VNX101                         50:06:01:60:89:60:13:EB
+
+
+Storage Pool Name:  Tier 6
+Storage Pool ID:  1
+Relocation Type:  Scheduled
+Storage Pool Name:  Tier 1
+Storage Pool ID:  0
+Relocation Type:  Scheduled
+Storage Pool Name:  Tier 2
+Storage Pool ID:  2
+Relocation Type:  Scheduled
+Storage Pool Name:  RP_Pool
+Storage Pool ID:  3
+Relocation Type:  Scheduled
+Storage Pool Name:  Tier 2_new
+Storage Pool ID:  4
+Relocation Type:  Scheduled
+========Array  10.2.36.1=======
+Hostname                                Array UID
+--------                                ----------
+VX01FR015VNX201                         50:06:01:60:89:60:14:34
+
+Storage Pool Name:  Tier2
+Storage Pool ID:  0
+Relocation Type:  Scheduled
+Storage Pool Name:  RP_Pool
+Storage Pool ID:  1
+Relocation Type:  Schedul
+========Array  10.2.36.2=======
+A network error occurred while trying to connect: '10.0.36.22'.
+Message : Error occurred because connection refused. Management Server is not running.
+========Array  10.2.164.1=======
+Hostname                                Array UID
+--------                                ----------
+VX01NL015VNX101                         50:06:01:60:89:60:14:49
+
+Storage Pool Name:  Tier 1
+Storage Pool ID:  0
+Relocation Type:  Scheduled
+Storage Pool Name:  Tier 2
+Storage Pool ID:  1
+Relocation Type:  Scheduled
+Storage Pool Name:  Tier 6
+Storage Pool ID:  2
+Relocation Type:  Scheduled
+Storage Pool Name:  RP_Pool
+Storage Pool ID:  3
+Relocation Type:  Scheduled
+Storage Pool Name:  Tier 2_new
+Storage Pool ID:  4
+Relocation Type:  Scheduled
+========Array  10.2.164.4=======
+Hostname                                Array UID
+--------                                ----------
+SPA                                     50:06:01:60:89:60:1C:5B
+
+Storage Pool Name:  Tier 1
+Storage Pool ID:  0
+Relocation Type:  Scheduled
+Storage Pool Name:  Tier 6
+Storage Pool ID:  2
+Relocation Type:  Scheduled
+Storage Pool Name:  Tier 2
+Storage Pool ID:  1
+Relocation Type:  Scheduled
+========Array  10.2.164.1=======
+Hostname                                Array UID
+--------                                ----------
+VX01NL015VNX201                         50:06:01:60:89:60:11:AF
+
+Storage Pool Name:  Tier 2
+Storage Pool ID:  0
+Relocation Type:  Scheduled
+Storage Pool Name:  RP_Pool
+Storage Pool ID:  1
+Relocation Type:  Scheduled
+========Array  10.2.164.2=======
+Hostname                                Array UID
+--------                                ----------
+VX01NL015VNX301                         50:06:01:60:89:60:12:E2
+
+Storage Pool Name:  HANA Pool
+Storage Pool ID:  0
+Relocation Type:  Scheduled
+Storage Pool Name:  RP
+Storage Pool ID:  1
+Relocation Type:  Scheduled
+Storage Pool Name:  NFS Pool
+Storage Pool ID:  2
+Relocation Type:  Scheduled
+========Array  10.2.164.2=======
+Error returned from the target: 10.0.164.2
+CLI commands are not supported by the target storage system.
+CLI commands are not supported by the target storage system.
+========Array  10.2.4.20=======
+Hostname                                Array UID
+--------                                ----------
+SPA                                     50:06:01:60:B6:E0:1D:7B
+
+Storage Pool Name:  Tier1 Pool
+Storage Pool ID:  0
+Relocation Type:  Scheduled
+Storage Pool Name:  Tier2 Pool
+Storage Pool ID:  1
+Relocation Type:  Scheduled
+Storage Pool Name:  Tier3 Pool
+Storage Pool ID:  2
+Relocation Type:  Scheduled
+Storage Pool Name:  Journal Pool
+Storage Pool ID:  3
+Relocation Type:  Scheduled
+Storage Pool Name:  NAS Pool
+Storage Pool ID:  4
+Relocation Type:  Scheduled
+========Array  10.2.4.3=======
+Hostname                                Array UID
+--------                                ----------
+SPB                                     50:06:01:60:B6:E0:28:5A
+
+Storage Pool Name:  Tier3 Pool
+Storage Pool ID:  0
+Relocation Type:  Scheduled
+Storage Pool Name:  Journal Pool
+Storage Pool ID:  1
+Relocation Type:  Scheduled
+Storage Pool Name:  Tier1 Pool
+Storage Pool ID:  2
+Relocation Type:  Scheduled
+Storage Pool Name:  Tier2 Pool
+Storage Pool ID:  3
+Relocation Type:  Scheduled
+========Array  10.2.4.2=======
+Hostname                                Array UID
+--------                                ----------
+SPA                                     50:06:01:60:B6:E0:1D:7B
+
+Storage Pool Name:  Tier1 Pool
+Storage Pool ID:  0
+Relocation Type:  Scheduled
+Storage Pool Name:  Tier2 Pool
+Storage Pool ID:  1
+Relocation Type:  Scheduled
+Storage Pool Name:  Tier3 Pool
+Storage Pool ID:  2
+Relocation Type:  Scheduled
+Storage Pool Name:  Journal Pool
+Storage Pool ID:  3
+Relocation Type:  Scheduled
+Storage Pool Name:  NAS Pool
+Storage Pool ID:  4
+Relocation Type:  Scheduled
+========Array  10.2.4.3=======
+Hostname                                Array UID
+--------                                ----------
+SPB                                     50:06:01:60:B6:E0:28:5A
+
+Storage Pool Name:  Tier3 Pool
+Storage Pool ID:  0
+Relocation Type:  Scheduled
+Storage Pool Name:  Journal Pool
+Storage Pool ID:  1
+Relocation Type:  Scheduled
+Storage Pool Name:  Tier1 Pool
+Storage Pool ID:  2
+Relocation Type:  Scheduled
+Storage Pool Name:  Tier2 Pool
+Storage Pool ID:  3
+Relocation Type:  Scheduled
+========Array  10.2.52.2=======
+Hostname                                Array UID
+--------                                ----------
+SPA                                     50:06:01:60:B6:E0:20:D4
+
+Storage Pool Name:  Tier2-Pool-01
+Storage Pool ID:  0
+Relocation Type:  Scheduled
+Storage Pool Name:  Tier3-Pool-01
+Storage Pool ID:  1
+Relocation Type:  Scheduled
+Storage Pool Name:  RPJOURNAL-Pool-01
+Storage Pool ID:  2
+Relocation Type:  Scheduled
+Storage Pool Name:  Tier1-Pool-01
+Storage Pool ID:  3
+Relocation Type:  Scheduled
+Storage Pool Name:  Tier2-Pool-02
+Storage Pool ID:  4
+Relocation Type:  Scheduled
+========Array  10.2.52.1=======
+Error returned from the Management Server on 10.0.52.1
+Authentication failed. Possible reasons for failure are invalid security file, invalid username, password and/or scope.
+========Array  10.2.52.5=======
+Hostname                                Array UID
+--------                                ----------
+SPA                                     50:06:01:60:B6:E0:17:4A
+
+Storage Pool Name:  Tier1-Pool-01
+Storage Pool ID:  0
+Relocation Type:  Scheduled
+Storage Pool Name:  RPJOURNAL-Pool-01
+Storage Pool ID:  1
+Relocation Type:  N/A
+Storage Pool Name:  Tier2-Pool-01
+Storage Pool ID:  2
+Relocation Type:  N/A
+========Array  10.2.60.1
+=======
+Caller not privileged.
+========Array  10.2.60.2=======
+Hostname                                Array UID
+--------                                ----------
+SPA                                     50:06:01:60:B6:E0:24:4D
+
+Storage Pool Name:  Tier1-Pool-01
+Storage Pool ID:  0
+Relocation Type:  Rebalance
+Storage Pool Name:  Tier2-Pool-01
+Storage Pool ID:  1
+Relocation Type:  N/A
+Storage Pool Name:  Tier3-Pool-01
+Storage Pool ID:  2
+Relocation Type:  N/A
+Storage Pool Name:  RPJOURNAL-Pool-01
+Storage Pool ID:  3
+Relocation Type:  N/A
+Storage Pool Name:  RPJOURNAL-Pool-02
+Storage Pool ID:  4
+Relocation Type:  Scheduled
+========Array  10.2.60.4=======
+Hostname                                Array UID
+--------                                ----------
+A-IMAGE                                 50:06:01:60:B6:E0:2E:BE
+
+Storage Pool Name:  Tier1-Pool-01
+Storage Pool ID:  0
+Relocation Type:  Scheduled
+Storage Pool Name:  Tier2-Pool-01
+Storage Pool ID:  1
+Relocation Type:  N/A
+Storage Pool Name:  Tier3-Pool-01
+Storage Pool ID:  2
+Relocation Type:  N/A
+Storage Pool Name:  RPJOURNAL-Pool-01
+Storage Pool ID:  3
+Relocation Type:  N/A
+========Array  10.2.60.7=======
+Hostname                                Array UID
+--------                                ----------
+SPA                                     50:06:01:60:B6:E0:24:57
+
+Storage Pool Name:  Tier2-Pool-01
+Storage Pool ID:  0
+Relocation Type:  N/A
+Storage Pool Name:  Tier3-Pool-01
+Storage Pool ID:  1
+Relocation Type:  N/A
+Storage Pool Name:  RPJOURNAL-Pool-01
+Storage Pool ID:  2
+Relocation Type:  N/A
+========Array  10.2.60.5=======
+Hostname                                Array UID
+--------                                ----------
+SPA                                     50:06:01:60:B6:E0:15:6B
+
+Storage Pool Name:  Tier1-Pool-01
+Storage Pool ID:  0
+Relocation Type:  Scheduled
+Storage Pool Name:  RPJOURNAL-Pool-01
+Storage Pool ID:  1
+Relocation Type:  N/A
+Storage Pool Name:  Tier2-Pool-01
+Storage Pool ID:  2
+Relocation Type:  N/A
+Storage Pool Name:  RPJOURNAL-Pool-02
+Storage Pool ID:  3
+Relocation Type:  N/A
+========Array  10.2.60.2=======
+Hostname                                Array UID
+--------                                ----------
+SPA                                     50:06:01:60:B6:E0:00:1D
+
+Storage Pool Name:  HANA-Pool-01
+Storage Pool ID:  0
+Relocation Type:  Scheduled
+Storage Pool Name:  NFS-Pool-01
+Storage Pool ID:  1
+Relocation Type:  N/A
+Storage Pool Name:  RP-Pool-01
+Storage Pool ID:  2
+Relocation Type:  N/A
+========Array  10.2.62.13=======
+Hostname                                Array UID
+--------                                ----------
+VX01US025ESP303                         50:06:01:60:B6:E0:26:E8
+
+Storage Pool Name:  HANA-Pool-01
+Storage Pool ID:  0
+Relocation Type:  Scheduled
+Storage Pool Name:  NFS-Pool-01
+Storage Pool ID:  1
+Relocation Type:  Scheduled
+Storage Pool Name:  RP-Pool-01
+Storage Pool ID:  2
+Relocation Type:  Scheduled
+========Array  10.2.228.4=======
+Hostname                                Array UID
+--------                                ----------
+SPA                                     50:06:01:60:88:60:40:0B
+
+Storage Pool Name:  Tier1-Pool-01
+Storage Pool ID:  0
+Relocation Type:  Scheduled
+Storage Pool Name:  Tier2-Pool-01
+Storage Pool ID:  1
+Relocation Type:  Manual
+Storage Pool Name:  RPJOURNAL-Pool-01
+Storage Pool ID:  2
+Relocation Type:  Scheduled
+Storage Pool Name:  Tier0-Pool-01
+Storage Pool ID:  3
+Relocation Type:  Scheduled
+Storage Pool Name:  RLP-Pool-01
+Storage Pool ID:  4
+Relocation Type:  Scheduled
+========Array  10.2.228.3=======
+Hostname                                Array UID
+--------                                ----------
+SPA                                     50:06:01:60:B6:E0:20:CA
+
+Storage Pool Name:  Tier3-Pool-01
+Storage Pool ID:  0
+Relocation Type:  Scheduled
+Storage Pool Name:  RPJOURNAL-Pool-01
+Storage Pool ID:  2
+Relocation Type:  N/A
+Storage Pool Name:  Tier1-Pool-01
+Storage Pool ID:  3
+Relocation Type:  Scheduled
+Storage Pool Name:  Tier2-Pool-01
+Storage Pool ID:  1
+Relocation Type:  N/A
+========Array  10.2.228.3=======
+Hostname                                Array UID
+--------                                ----------
+SPA                                     50:06:01:60:B6:E0:2C:C1
+
+Storage Pool Name:  Tier0-Pool-01
+Storage Pool ID:  0
+Relocation Type:  Scheduled
+Storage Pool Name:  Tier3-Pool-01
+Storage Pool ID:  1
+Relocation Type:  N/A
+Storage Pool Name:  Tier1-Pool-01
+Storage Pool ID:  2
+Relocation Type:  Rebalance
+Storage Pool Name:  RPJOURNAL-Pool-01
+Storage Pool ID:  4
+Relocation Type:  N/A
+Storage Pool Name:  Tier2-Pool-01
+Storage Pool ID:  3
+Relocation Type:  Rebalance
+========Array  10.2.228.99=======
+A network error occurred while trying to connect: '10.0.228.99'.
+Message : Error occurred because connection refused. Management Server is not running.
+========Array  10.2.228.9=======
+Hostname                                Array UID
+--------                                ----------
+SPA                                     50:06:01:60:B6:E0:2E:AF
+
+Storage Pool Name:  Tier0-Pool-01
+Storage Pool ID:  0
+Relocation Type:  Scheduled
+Storage Pool Name:  Tier1-Pool-01
+Storage Pool ID:  1
+Relocation Type:  Scheduled
+Storage Pool Name:  Tier2-Pool-01
+Storage Pool ID:  2
+Relocation Type:  Scheduled
+Storage Pool Name:  Tier3-Pool-01
+Storage Pool ID:  3
+Relocation Type:  Scheduled
+Storage Pool Name:  RPJOURNAL-Pool-01
+Storage Pool ID:  4
+Relocation Type:  Scheduled
+========Array  10.2.228.9=======
+Hostname                                Array UID
+--------                                ----------
+VX01US035ESP111                         50:06:01:60:B6:E0:2E:EE
+
+Storage Pool Name:  Tier1-Pool-01
+Storage Pool ID:  0
+Relocation Type:  Scheduled
+Storage Pool Name:  Tier2-Pool-01
+Storage Pool ID:  1
+Relocation Type:  Scheduled
+Storage Pool Name:  Tier3-Pool-01
+Storage Pool ID:  2
+Relocation Type:  Scheduled
+Storage Pool Name:  RPJOURNAL-Pool-01
+Storage Pool ID:  3
+Relocation Type:  Scheduled
+========Array  10.2.239.13=======
+Hostname                                Array UID
+--------                                ----------
+VX01US035ECS113                         50:06:01:60:B6:E0:1D:B9
+
+Storage Pool Name:  Tier0-Pool-01
+Storage Pool ID:  0
+Relocation Type:  N/A
+Storage Pool Name:  Tier1-Pool-01
+Storage Pool ID:  1
+Relocation Type:  N/A
+Storage Pool Name:  RPJOURNAL-Pool-01
+Storage Pool ID:  2
+Relocation Type:  N/A
+========Array  10.2.239.15=======
+Hostname                                Array UID
+--------                                ----------
+SPA                                     50:06:01:60:B6:E0:0B:87
+
+Storage Pool Name:  Tier0-Pool-01
+Storage Pool ID:  0
+Relocation Type:  N/A
+Storage Pool Name:  Tier1-Pool-01
+Storage Pool ID:  1
+Relocation Type:  Scheduled
+Storage Pool Name:  Tier2-Pool-01
+Storage Pool ID:  2
+Relocation Type:  N/A
+Storage Pool Name:  Tier3-Pool-01
+Storage Pool ID:  3
+Relocation Type:  N/A
+Storage Pool Name:  RPJOURNAL-Pool-01
+Storage Pool ID:  4
+Relocation Type:  N/A
+========Array  10.2.239.16=======
+Hostname                                Array UID
+--------                                ----------
+SPA                                     50:06:01:60:88:60:2E:CD
+
+Storage Pool Name:  Tier0-Pool-01
+Storage Pool ID:  0
+Relocation Type:  N/A
+Storage Pool Name:  Tier1-Pool-01
+Storage Pool ID:  1
+Relocation Type:  Scheduled
+Storage Pool Name:  Tier2-Pool-01
+Storage Pool ID:  2
+Relocation Type:  N/A
+Storage Pool Name:  Tier3-Pool-01
+Storage Pool ID:  3
+Relocation Type:  N/A
+Storage Pool Name:  RPJOURNAL-Pool-01
+Storage Pool ID:  4
+Relocation Type:  N/A
+========Array  10.2.228.1=======
+Hostname                                Array UID
+--------                                ----------
+SPA                                     50:06:01:60:B6:E0:1A:7F
+
+Storage Pool Name:  HANA-Pool-01
+Storage Pool ID:  0
+Relocation Type:  N/A
+Storage Pool Name:  NFS-Pool-01
+Storage Pool ID:  1
+Relocation Type:  N/A
+========Array  10.2.228.5=======
+Hostname                                Array UID
+--------                                ----------
+SPA                                     50:06:01:60:B6:E0:29:47
+
+Storage Pool Name:  Tier0-Pool-01
+Storage Pool ID:  0
+Relocation Type:  N/A
+Storage Pool Name:  HANA-Pool-01
+Storage Pool ID:  1
+Relocation Type:  N/A
+Storage Pool Name:  NFS-Pool-01
+Storage Pool ID:  2
+Relocation Type:  N/A
+Storage Pool Name:  RP-Journal-Pool-01
+Storage Pool ID:  3
+Relocation Type:  N/A
+Storage Pool Name:  Tier0-Pool-02
+Storage Pool ID:  4
+Relocation Type:  N/A
+========Array  10.2.228.2=======
+Hostname                                Array UID
+--------                                ----------
+SPA                                     50:06:01:60:B6:E0:29:20
+
+Storage Pool Name:  HANA-Pool-01
+Storage Pool ID:  0
+Relocation Type:  N/A
+Storage Pool Name:  NFS-Pool-01
+Storage Pool ID:  1
+Relocation Type:  N/A
+Storage Pool Name:  RP-Pool-01
+Storage Pool ID:  2
+Relocation Type:  N/A
+========Array  10.2.228.4=======
+Hostname                                Array UID
+--------                                ----------
+SPA                                     50:06:01:60:89:60:25:91
+
+Storage Pool Name:  Tier1-Pool-01
+Storage Pool ID:  0
+Relocation Type:  N/A
+Storage Pool Name:  Tier2-Pool-01
+Storage Pool ID:  1
+Relocation Type:  Rebalance
+Storage Pool Name:  RPJOURNAL-Pool-01
+Storage Pool ID:  2
+Relocation Type:  N/A
+========Array  10.2.228.1=======
+Hostname                                Array UID
+--------                                ----------
+VX01US035ESP09                          50:06:01:60:B6:E0:2D:50
+
+Storage Pool Name:  Tier0-Pool-01
+Storage Pool ID:  0
+Relocation Type:  N/A
+Storage Pool Name:  HANA-Pool-01
+Storage Pool ID:  1
+Relocation Type:  N/A
+Storage Pool Name:  NFS-Pool-01
+Storage Pool ID:  2
+Relocation Type:  N/A
+Storage Pool Name:  RP-Journal-Pool-01
+Storage Pool ID:  3
+Relocation Type:  N/A
+========Array  10.2.228.7=======
+Hostname                                Array UID
+--------                                ----------
+SPA                                     50:06:01:60:B6:E0:27:4F
+
+Storage Pool Name:  Tier1-Pool-01
+Storage Pool ID:  0
+Relocation Type:  Scheduled
+Storage Pool Name:  Tier2-Pool-01
+Storage Pool ID:  1
+Relocation Type:  Scheduled
+Storage Pool Name:  Tier3-Pool-01
+Storage Pool ID:  2
+Relocation Type:  Scheduled
+Storage Pool Name:  RPJOURNAL-Pool-01
+Storage Pool ID:  3
+Relocation Type:  N/A
+========Array  10.2.148.5=======
+Hostname                                Array UID
+--------                                ----------
+SPA                                     50:06:01:60:B6:E0:22:D5
+
+Storage Pool Name:  NFS-Pool-01
+Storage Pool ID:  0
+Relocation Type:  Scheduled
+========Array  10.2.148.1=======
+Hostname                                Array UID
+--------                                ----------
+VX01US045VNX101                         50:06:01:60:B6:E0:12:72
+
+Storage Pool Name:  Tier1-Pool-01
+Storage Pool ID:  0
+Relocation Type:  Scheduled
+Storage Pool Name:  Tier3-Pool-01
+Storage Pool ID:  2
+Relocation Type:  Scheduled
+Storage Pool Name:  RPJOURNAL-Pool-01
+Storage Pool ID:  3
+Relocation Type:  Scheduled
+Storage Pool Name:  Tier2-Pool-01
+Storage Pool ID:  5
+Relocation Type:  Scheduled
+Storage Pool Name:  Tier2-Pool-02
+Storage Pool ID:  1
+Relocation Type:  Scheduled
+========Array  10.2.148.3=======
+Hostname                                Array UID
+--------                                ----------
+SPA                                     50:06:01:60:B6:E0:2A:4D
+
+Storage Pool Name:  Tier1-Pool-01
+Storage Pool ID:  0
+Relocation Type:  Scheduled
+Storage Pool Name:  Tier2-Pool-01
+Storage Pool ID:  1
+Relocation Type:  Scheduled
+Storage Pool Name:  Tier3-Pool-01
+Storage Pool ID:  2
+Relocation Type:  Scheduled
+Storage Pool Name:  RPJOURNAL-Pool-01
+Storage Pool ID:  3
+Relocation Type:  Scheduled
+========Array  10.2.148.6=======
+Hostname                                Array UID
+--------                                ----------
+SPA                                     50:06:01:60:B6:E0:19:DC
+
+Storage Pool Name:  Tier0-Pool-01
+Storage Pool ID:  0
+Relocation Type:  N/A
+Storage Pool Name:  Tier1-Pool-01
+Storage Pool ID:  1
+Relocation Type:  Scheduled
+Storage Pool Name:  Tier2-Pool-01
+Storage Pool ID:  2
+Relocation Type:  N/A
+Storage Pool Name:  Tier3-Pool-01
+Storage Pool ID:  3
+Relocation Type:  N/A
+Storage Pool Name:  RPJOURNAL-Pool-01
+Storage Pool ID:  4
+Relocation Type:  N/A
+========Array  10.2.148.6=======
+Hostname                                Array UID
+--------                                ----------
+SPA                                     50:06:01:60:B6:E0:2E:56
+
+Storage Pool Name:  Tier0-Pool-01
+Storage Pool ID:  0
+Relocation Type:  Scheduled
+Storage Pool Name:  Tier1-Pool-01
+Storage Pool ID:  1
+Relocation Type:  Scheduled
+Storage Pool Name:  Tier2-Pool-01
+Storage Pool ID:  2
+Relocation Type:  Scheduled
+Storage Pool Name:  Tier3-Pool-01
+Storage Pool ID:  3
+Relocation Type:  N/A
+Storage Pool Name:  RPJOURNAL-Pool-01
+Storage Pool ID:  4
+Relocation Type:  Rebalance
+========Array  10.2.148.9=======
+Hostname                                Array UID
+--------                                ----------
+SPA                                     50:06:01:60:B6:E0:1E:21
+
+Storage Pool Name:  Tier0-Pool-01
+Storage Pool ID:  0
+Relocation Type:  N/A
+Storage Pool Name:  Tier1-Pool-01
+Storage Pool ID:  1
+Relocation Type:  Scheduled
+Storage Pool Name:  RPJOURNAL-Pool-01
+Storage Pool ID:  2
+Relocation Type:  N/A
+========Array  10.2.148.1=======
+Hostname                                Array UID
+--------                                ----------
+VX01US045VNX201                         50:06:01:60:B6:E0:16:AA
+
+Storage Pool Name:  Tier2-Pool-01
+Storage Pool ID:  0
+Relocation Type:  Scheduled
+Storage Pool Name:  RPJOURNAL-Pool-01
+Storage Pool ID:  1
+Relocation Type:  Scheduled
+========Array  10.2.148.2=======
+Hostname                                Array UID
+--------                                ----------
+VX01US045VNX301                         50:06:01:60:B6:E0:0F:BE
+
+Storage Pool Name:  HANA-Pool-01
+Storage Pool ID:  0
+Relocation Type:  Scheduled
+Storage Pool Name:  NFS-Pool-01
+Storage Pool ID:  1
+Relocation Type:  Scheduled
+========Array  10.2.148.4=======
+Hostname                                Array UID
+--------                                ----------
+SPA                                     50:06:01:60:89:60:25:88
+
+Storage Pool Name:  HANA-Pool-01
+Storage Pool ID:  0
+Relocation Type:  N/A
+Storage Pool Name:  NFS-Pool-01
+Storage Pool ID:  1
+Relocation Type:  N/A
+Storage Pool Name:  RP-Pool-01
+Storage Pool ID:  2
+Relocation Type:  N/A
+========Array  10.2.148.5=======
+Hostname                                Array UID
+--------                                ----------
+SPA                                     50:06:01:60:89:60:25:A6
+
+Storage Pool Name:  HANA-Pool-01
+Storage Pool ID:  0
+Relocation Type:  N/A
+Storage Pool Name:  NFS-Pool-01
+Storage Pool ID:  1
+Relocation Type:  N/A
+Storage Pool Name:  RP-Pool-01
+Storage Pool ID:  2
+Relocation Type:  N/A
+========Array  10.2.148.6=======
+Hostname                                Array UID
+--------                                ----------
+VX01US045ESP307                         50:06:01:60:89:60:25:AD
+
+Storage Pool Name:  HANA_Pool_01
+Storage Pool ID:  0
+Relocation Type:  N/A
+Storage Pool Name:  NFS_Pool_01
+Storage Pool ID:  1
+Relocation Type:  N/A
+Storage Pool Name:  RP_Pool_01
+Storage Pool ID:  2
+Relocation Type:  N/A
+========Array  10.2.148.9=======
+Hostname                                Array UID
+--------                                ----------
+SPA                                     50:06:01:60:B6:E0:2C:85
+
+Storage Pool Name:  HANA-Pool-01
+Storage Pool ID:  0
+Relocation Type:  Scheduled
+Storage Pool Name:  NFS-Pool-01
+Storage Pool ID:  1
+Relocation Type:  N/A
+Storage Pool Name:  RP-Pool-01
+Storage Pool ID:  2
+Relocation Type:  N/A
+========Array  10.2.148.4=======
+Hostname                                Array UID
+--------                                ----------
+SPA                                     50:06:01:60:B6:E0:27:51
+
+Storage Pool Name:  Tier2-Pool-01
+Storage Pool ID:  0
+Relocation Type:  N/A
+Storage Pool Name:  Tier3-Pool-01
+Storage Pool ID:  1
+Relocation Type:  N/A
+Storage Pool Name:  RPJOURNAL-Pool-01
+Storage Pool ID:  2
+Relocation Type:  N/A
+Storage Pool Name:  Tier1-Pool-01
+Storage Pool ID:  3
+Relocation Type:  Scheduled
+
